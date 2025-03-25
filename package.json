@@ -18,6 +18,10 @@
 	"files": [
 		"json-sort"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jagaad/scripts.git"
+	},
 	"author": "Jagaad <contact@jagaad.com>",
 	"license": "MIT",
 	"type": "module",
