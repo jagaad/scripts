@@ -1,6 +1,6 @@
 {
 	"name": "@jagaad/scripts",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "A collection of scripts for Jagaad projects",
 	"engines": {
 		"node": ">=20",
