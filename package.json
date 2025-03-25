@@ -1,16 +1,29 @@
 {
 	"name": "@jagaad/scripts",
 	"version": "0.0.0",
-	"description": "",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 0"
+	"description": "A collection of scripts for Jagaad projects",
+	"engines": {
+		"node": ">=20",
+		"npm": ">=10"
 	},
-	"keywords": [],
-	"author": "",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 0",
+		"release": "np"
+	},
+	"keywords": [
+		"jagaad",
+		"scripts",
+		"cli"
+	],
+	"files": [
+		"json-sort"
+	],
+	"author": "Jagaad <contact@jagaad.com>",
 	"license": "MIT",
 	"type": "module",
 	"devDependencies": {
 		"@jagaad/prettier-config": "^1.1.1",
+		"np": "^10.2.0",
 		"prettier": "^3.5.3"
 	},
 	"dependencies": {
